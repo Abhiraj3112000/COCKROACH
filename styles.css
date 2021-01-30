@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	/* display:absolute; */
+	align-items: center;
+
+}
+
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+}
+
+.logo {
+	float: left;
+	line-height: 100px;
+
+}
+
+.logo a {
+	text-decoration: none;
+	font-family: 'Pirata One', cursive;
+	font-size: 30px;
+
+	color: lightpink;
+	letter-spacing: 5px;
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+	position: relative;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+a:hover {
+	color: pink;
+}
+
+.banner-area {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 100px;
+	background-image: url(Cockroach.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	/* background: #262626; */
+	height: 700px;
+	display: flex;
+	align-items: flex-start;
+	margin-top: 0;
+	/* color:white; */
+	/*CODE BELOW: USED TO MAKE AREA TRANSPARENT*/
+	border-width: 0px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	background-color: rgba(0, 0, 0, 0.0);
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.content-area h2 {
+	font-family: 'Pirata One', cursive;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 100px;
+	margin: 0;
+}
+
+.content-area p {
+	padding: 2% 0px;
+	font-family: poppins;
+	line-height: 30px;
+	color: white;
+}
+
+.content-area :hover {
+	color: pink;
+}
